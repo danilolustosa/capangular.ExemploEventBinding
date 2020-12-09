@@ -124,5 +124,8 @@
       }
     }
   },
-  "defaultProject": "ExemploEventBinding"
+  "defaultProject": "ExemploEventBinding",
+  "cli": {
+    "analytics": "7273520c-21c6-4b61-9e91-fc22645b13a5"
+  }
 }

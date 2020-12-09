@@ -19,7 +19,6 @@ describe('AppComponent', () => {
   it(`should have as title 'ExemploEventBinding'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('ExemploEventBinding');
   });
 
   it('should render title', () => {

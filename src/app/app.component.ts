@@ -6,5 +6,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'ExemploEventBinding';
+
+  classBtn:string = 'btnblock';
+
+  public showAlert() : void {
+    console.log('You clicked on the button...');
+    alert("Click Event Fired...");
+  }
 }
